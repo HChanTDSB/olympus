@@ -178,9 +178,9 @@ const courses: Course[] = [
             <h1 className="text-2xl col-span-1 md:col-span-2 font-bold">Assignments</h1>
             <DriveVideo url="https://drive.google.com/file/d/1I3HAhfcBtVt5HGWH8jXvn9peMlBNaRhL/preview" /> {/* Snake-Christian */}
             <DriveVideo url="https://drive.google.com/file/d/1Mv1aiyo95CHxL3O8a7H-0Y8Yahpy8cNX/preview" /> {/* Snake-Lauryn */}
-            <DriveVideo url="https://drive.google.com/file/d/1jafLg8jebG0GT04ywXIFMOXk0b5-V38r/preview" /> {/* Scene-Nathan */}
-            <DriveVideo url="https://drive.google.com/file/d/1FKj8ty5NRwjJBOEKSEhb2XXm7yeIp3a-/preview" /> {/* Scene-Olivia */}
-
+            <YoutubeVideo id="u_756_-Xikc"/> {/* Scene - Nathan - on Helen's Channel */}
+            <YoutubeVideo id="zDlTNChZtOY"/> {/* Scene - Olivia - on Helen's Channel */}
+            
             <h1 className="text-2xl col-span-1 md:col-span-2 font-bold">Culminating Project Videos</h1>            
             <DriveVideo url="https://drive.google.com/file/d/1x2mXUCR-f3Y4ZLYlNfGpF1Am6Ee4MYf1/preview" /> {/* Exit the Dragon */}
             <DriveVideo url="https://drive.google.com/file/d/1fGrx-U3EMOlVHnjr_DVaDHZJk1THs-lI/preview" /> {/* Hole Escape */}
@@ -229,23 +229,18 @@ const courses: Course[] = [
         ),
         videos: (
           <div className="flex w-full max-w-full flex-col overflow-x-auto md:gap-4">
-            {/*
-            <DriveVideo url="https://drive.google.com/file/d/1rNm4PYJbJTQRZtZnH-r7HbRD8gY0FjxH/preview"></DriveVideo>
-            <DriveVideo url="https://drive.google.com/file/d/1AH44qgDeHXTR2Y5po2t2kkEnS0iUE8Wn/preview"></DriveVideo>
-            <DriveVideo url="https://drive.google.com/file/d/1J30p7Sz_W45cfQB3pKRTi_tBeimk_zqT/preview"></DriveVideo>
-            */}
-            <YoutubeVideo id="qLFiF6ZQlAE"/> 
-            <YoutubeVideo id="G5lb-oTKE-A"/> 
-            <YoutubeVideo id="g08OutJ2NjU"/> 
-            <YoutubeVideo id="jGEUGBzywz4"/>  {/* Felicia Zhou */}
+            <YoutubeVideo id="qLFiF6ZQlAE"/> {/* on Marie's Channel */}
+            <YoutubeVideo id="G5lb-oTKE-A"/> {/* on Marie's Channel */}
+            <YoutubeVideo id="g08OutJ2NjU"/> {/* on Marie's Channel */}
+            <YoutubeVideo id="jGEUGBzywz4"/> {/* Felicia Zhou */}
             <YoutubeVideo id="rZt6HUNvgT0"/> {/* Ian Min */}
             <YoutubeVideo id="q403E2kCh0U"/> {/* Satoru Katsuta */}
             <YoutubeVideo id="eRbv4Oq9Ob4"/> {/* Gian Pauyon */}
-            <DriveVideo url="https://drive.google.com/file/d/1M2eoGDtCpWp72fLlYiGaybiHiMMGQtWd/preview"></DriveVideo> {/* Ethan Bravo */} 
-            <DriveVideo url="https://drive.google.com/file/d/1UhLpKzDfeo8bAhklI4lq6OSKJbMNgQRD/preview"></DriveVideo> {/* Jakim Cau */} 
-            <DriveVideo url="https://drive.google.com/file/d/1N0NqyP8m0QJ9QiRnhxOd0C6rM3ItvT2n/preview"></DriveVideo> {/* Chloe Lawrence */} 
-            <DriveVideo url="https://drive.google.com/file/d/1NhY7P8RPvBczAyGFGqcVLBhc22BA6lj7/preview"></DriveVideo> {/* Panayiotis Vavaroutsos */} 
-            <DriveVideo url="https://drive.google.com/file/d/1Ke1ocyj8MBuY370MW0uRx3eoIwnXb_-m/preview"></DriveVideo> {/* Adriano Tino */}       
+            <YoutubeVideo id="i0aSwOt_Gqs"/> {/* Ethan Bravo - on Helen's Channel */}
+            <YoutubeVideo id="jwzO6aKzvZI"/> {/* Jakim Cau - on Helen's Channel */}
+            <YoutubeVideo id="rkJm26Ilew"/> {/* Chloe Lawrence - on Helen's Channel */}          
+            <YoutubeVideo id="fchMW79ploM"/> {/* Panayiotis Vavaroutsos - on Helen's Channel */}
+            <YoutubeVideo id="hTmTDf8phfk"/> {/* Adriano Tino - on Helen's Channe */}     
           </div>
         ),
       },
@@ -286,9 +281,9 @@ const courses: Course[] = [
             <YoutubeVideo id="Uiy7pGqdFlUs" />
             <DriveVideo url="https://drive.google.com/file/d/1SLakW7-nWj-e1OTyD2tMDsUCnkK1TS9B/preview"></DriveVideo>
             */}
-            <DriveVideo url="https://drive.google.com/file/d/12j98NuIUBUzMLfY_o9YhQreuynqHQQBw/preview"></DriveVideo> {/* Elemental Escape */}
-            <DriveVideo url="https://drive.google.com/file/d/1CP8Ze25qQyG-w_PqMumxd8t5uup15z7N/preview"></DriveVideo> {/* Nam Cap */}
-            <DriveVideo url="https://drive.google.com/file/d/1S4DM3BV1tsz7-evfFN8CxRHhvQb_B5El/preview"></DriveVideo> {/* Omni Fighter */}
+            <YoutubeVideo id="NjxWjIhZIAk"/> {/* Elemental Escape - on Helen's Channel */}
+            <YoutubeVideo id="cweLDVGAVc0"/> {/* Nam Cap - on Helen's Channel */}
+            <YoutubeVideo id="RR_ZBd1Vr9k"/> {/* Omni Fighter - on Helen's Channel */}
             <YoutubeVideo id="CPWX_HymZqg"/> {/* White Coats */}
             <YoutubeVideo id="ol21zBTqDXs"/> {/* Tetris */}
             <YoutubeVideo id="VtV1dqQbDyM"/> {/* Crusader */}
